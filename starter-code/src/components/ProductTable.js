@@ -5,8 +5,15 @@ class ProductTable extends React.Component {
     render() {
         return (
             <div>
-                <h1>product table</h1>
-                <ProductRow />
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <ProductRow />
+                </table>
             </div>
         )
     }

@@ -6,6 +6,7 @@ class FilterableProductTable extends React.Component {
     render() {
         return (
             <div>
+                <h1>Store</h1>
                 <SearchBar />
                 <ProductTable />
             </div>
